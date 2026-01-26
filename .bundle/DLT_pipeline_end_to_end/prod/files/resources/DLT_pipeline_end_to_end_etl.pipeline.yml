@@ -1,0 +1,17 @@
+# The main pipeline for DLT_pipeline_end_to_end
+
+id: 755f2f5b-e041-40db-8a1d-dc5c1ffc54b0
+pipeline_type: WORKSPACE
+name: DLT_PIPELINE
+libraries:
+  - glob:
+      include: /Repos/toteabhinavrm02@gmail.com/deltalivetables/DLT_pipeline_medallion_architecture/DLT_PIPELINE/transformations/**
+schema: sam_db
+continuous: false
+development: false
+photon: true
+channel: CURRENT
+catalog: smapreetharigala
+serverless: true
+root_path: /Repos/toteabhinavrm02@gmail.com/deltalivetables/DLT_pipeline_medallion_architecture/DLT_PIPELINE
+

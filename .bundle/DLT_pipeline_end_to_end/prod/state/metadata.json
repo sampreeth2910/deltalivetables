@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "DLT_pipeline_end_to_end",
+      "target": "prod",
+      "mode": "production",
+      "git": {
+        "branch": "release",
+        "origin_url": "https://github.com/sampreeth2910/deltalivetables.git",
+        "commit": "6b6ddca56693232a03231ee48c54baa9abff3406",
+        "bundle_root_path": "DLT_pipeline_medallion_architecture/DLT_pipeline_end_to_end"
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/toteabhinavrm02@gmail.com/.bundle/DLT_pipeline_end_to_end/prod/files"
+    },
+    "resources": {},
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {
+    "git_folder_path": "/Workspace/Repos/toteabhinavrm02@gmail.com/deltalivetables"
+  }
+}
